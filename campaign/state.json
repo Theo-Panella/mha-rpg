@@ -2,18 +2,18 @@
   "meta": {
     "campaign_name": "Plus Ultra",
     "created": "2026-10-05T13:26:45",
-    "last_saved": "2026-10-05T13:34:01",
-    "revision": 36,
+    "last_saved": "2026-10-05T13:42:33",
+    "revision": 68,
     "session": 1,
-    "turn": 4,
+    "turn": 7,
     "difficulty": "lenda",
     "start_mode": "exame_UA_turma_por_resultado",
     "creation_status": "concluida"
   },
   "world": {
     "date": "0001-02-26",
-    "time_of_day": "manhã; dez minutos até fechar a entrada para o escrito",
-    "location": "Entrada da UA, ao pé do acesso de serviço, fora da rampa",
+    "time_of_day": "fim da manhã; início dos dez minutos do prático",
+    "location": "UA, entrada do campo prático B",
     "canon_mode": "seguir_canone_com_divergencias"
   },
   "player": {
@@ -86,7 +86,9 @@
       "Celular",
       "Documento e comprovante de inscrição na UA",
       "Estojo com lápis, borracha e caneta",
-      "Garrafa de água"
+      "Garrafa de água",
+      "3 esferas metálicas de treino em bolsa de cintura",
+      "Cabo de treino de 5 metros"
     ],
     "costume": "",
     "fame": 0,
@@ -1088,32 +1090,71 @@
   "flags": {
     "creation_pending": [],
     "exam": {
-      "status": "antes_da_prova_escrita",
+      "status": "pratico_iniciado",
       "class_assignment": "Regra desta campanha: aprovação na prova escrita e total no prático de 60+ para 1-A; 35-59 para 1-B; abaixo de 35 sem aprovação no curso de heróis. Total do prático inclui combate e avaliação de resgate. A/B não é hierarquia de qualidade das turmas. Critérios fixados antes dos dados.",
       "written": {
-        "status": "pendente",
-        "resolution": "Prova resumida em INT+Conhecimento (sem treino), DC12, sem Linha de Vetor. Sucesso aprova; parcial permite revisão com tempo adicional e segunda checagem DC12; falha permite recuperação oral INT+Tática DC14. Falha na segunda etapa reprova o escrito. DET disponível normalmente."
+        "status": "concluido",
+        "resolution": "Prova resumida em INT+Conhecimento (sem treino), DC12, sem Linha de Vetor. Sucesso aprova; parcial permite revisão com tempo adicional e segunda checagem DC12; falha permite recuperação oral INT+Tática DC14. Falha na segunda etapa reprova o escrito. DET disponível normalmente.",
+        "result": {
+          "natural": 11,
+          "attr": 5,
+          "skill": 0,
+          "total": 16,
+          "dc": 12,
+          "degree": "SUCESSO"
+        }
       },
       "combat_points": 0,
       "rescue_points": 0,
-      "written_passed": null,
-      "equipment": "Equipamento de arremesso a escolher pelo jogador antes do prático; não atribuir facas automaticamente."
+      "written_passed": true,
+      "equipment": "Retirou seis esferas metálicas de treino, bolsa de cintura e cabo de 5 m. Equipamento comum sem bônus tecnológico. Esfera: ataque PER ou AGI + Pontaria, dano 1d8+FOR; munição recuperável. Cabo: usos táticos conforme ficção e testes. Linha de Vetor não aumenta dano.",
+      "ammunition": {
+        "metal_spheres": 3,
+        "thrown_recoverable": 3,
+        "locations": [
+          "Duas sob/junto às rodas do robô a 12 m",
+          "Uma junto ao carro cenográfico a 12 m"
+        ]
+      },
+      "remaining_seconds": 600
     },
     "scene": {
-      "id": "entrada_ua_apos_resgate",
-      "type": "social",
-      "status": "aguardando_resposta_do_jogador",
-      "description": "Akira e Hasegawa estão ilesos, fora da rampa, no pé do acesso de serviço. Carrinho bateu na mureta no fim da descida; caixas tombaram sem atingir pessoas. Hasegawa se recompõe, agradece e pergunta o nome de Akira. Fiscal anuncia dez minutos até fechar entrada da prova escrita. Akira ainda não respondeu nem entrou.",
-      "last_roll": {
-        "attr": "AGI",
-        "skill": "Resgate",
-        "natural": 9,
-        "total": 15,
-        "dc": 12,
-        "result": "SUCESSO"
+      "id": "exame_pratico_primeira_rua",
+      "type": "combate_preparacao",
+      "status": "aguardando_acao_do_jogador",
+      "description": "Akira leu a trajetória do robô e lançou três esferas agrupadas. PER+Pontaria 13 vsDC14: PARCIAL. Duas entraram sob uma roda, fazendo o robô escorregar e virar a lateral; terceira desviou para o carro. Robô não caiu nem foi neutralizado, mas ficou desequilibrado: vantagem no próximo teste contra ele até fim do próximo turno de Akira. Akira permanece no portão, com ação usada e movimento de até12m e reação disponíveis. Turno do robô ainda não resolvido; solicitar destino de movimento ou decisão de permanecer.",
+      "positions": {
+        "akira": "Na soleira do portão aberto",
+        "robo_1_ponto": "A 12 m à frente, junto a carro cenográfico, orientando sensor para o acesso",
+        "esquina": "A 18 m, à direita, ruído de esteiras atrás de parede; inimigo ainda não visível",
+        "passagem_lateral": "À esquerda, entre fachada de loja e caçamba metálica, cobertura acessível a 4 m",
+        "outros_candidatos": "Saem do portão rumo à avenida; nenhum atingiu o robô visível ainda"
       },
-      "exam_entry_minutes_remaining": 10,
-      "visible_trajectories": 0
+      "robot_1": {
+        "id": "b_robo_01",
+        "points": 1,
+        "hp": 10,
+        "max_hp": 10,
+        "defense": 10,
+        "attack": 3,
+        "damage": "1d6+1",
+        "reduction": 1,
+        "visible_features": "Sensor frontal exposto sobre haste estreita; rodas sob placas de proteção",
+        "status": "desequilibrado, ainda de pé e ativo",
+        "behavior": "Ao entrar em combate, rolar iniciativa; avança para empurrar ou golpear candidatos próximos.",
+        "conditions": [
+          "Desequilibrado: vantagem no próximo teste contra ele, consumida ao usar ou ao fim do próximo turno de Akira"
+        ]
+      },
+      "combat_not_started": false,
+      "time_elapsed_seconds": 0,
+      "last_roll": {
+        "natural": 3,
+        "total": 13,
+        "dc": 14,
+        "result": "PARCIAL",
+        "modifier": 2
+      }
     }
   },
   "divergences": [],
@@ -1344,5 +1385,32 @@
       "status": "pending"
     }
   },
-  "combat": null
+  "combat": {
+    "round": 1,
+    "turn": 0,
+    "order": [
+      {
+        "name": "player",
+        "init": 7,
+        "hp": 28,
+        "max": 28,
+        "team": "ally",
+        "def": 15,
+        "action_used": true,
+        "movement_remaining_m": 12,
+        "reaction_available": true
+      },
+      {
+        "name": "b_robo_01",
+        "init": 3,
+        "hp": 10,
+        "max": 10,
+        "team": "enemy",
+        "def": 10,
+        "conditions": [
+          "Desequilibrado: próximo teste contra este robô com vantagem, até fim do próximo turno do PJ"
+        ]
+      }
+    ]
+  }
 }

@@ -1,1 +1,3 @@
 {"kind": "check", "attr": "AGI", "skill": "Resgate", "nat": 9, "total": 15, "label": "Tirar funcionário da trajetória do carrinho", "dc": 12, "degree": "SUCESSO", "at": "2026-10-05T13:33:26"}
+{"kind": "check", "attr": "INT", "skill": "Conhecimento (sem treino)", "nat": 11, "total": 16, "label": "Exame escrito de admissão da UA", "dc": 12, "degree": "SUCESSO", "at": "2026-10-05T13:35:47"}
+{"kind": "check", "attr": "PER", "skill": "Pontaria", "nat": 3, "total": 13, "label": "Três esferas sob as rodas do robô", "dc": 14, "degree": "PARCIAL (sucesso com custo)", "at": "2026-10-05T13:41:43"}
