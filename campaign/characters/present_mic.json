@@ -1,0 +1,13 @@
+{
+  "name": "Present Mic",
+  "role": "professor",
+  "quirk": "Voz",
+  "honor": 6,
+  "reputation": 5,
+  "traits": [
+    "expansivo"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Recovery Girl",
+  "role": "enfermeira",
+  "quirk": "Cura",
+  "honor": 8,
+  "reputation": 5,
+  "traits": [
+    "maternal"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

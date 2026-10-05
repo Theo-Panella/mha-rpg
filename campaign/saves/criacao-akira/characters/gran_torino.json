@@ -1,0 +1,14 @@
+{
+  "name": "Gran Torino",
+  "role": "mentor/heroi",
+  "quirk": "Jet",
+  "honor": 7,
+  "reputation": 5,
+  "traits": [
+    "teimoso",
+    "leal"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

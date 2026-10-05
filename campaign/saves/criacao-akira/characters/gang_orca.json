@@ -1,0 +1,14 @@
+{
+  "name": "Gang Orca",
+  "role": "heroi",
+  "quirk": "Super Onda Sonora",
+  "honor": 7,
+  "reputation": 6,
+  "traits": [
+    "intimidador",
+    "gentil"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

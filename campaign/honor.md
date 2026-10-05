@@ -1,0 +1,1 @@
+- 0001-02-26 | player | honor +1 (agora +1) | Arriscou-se para retirar um funcionário desconhecido da trajetória de um carrinho de carga desgovernado.

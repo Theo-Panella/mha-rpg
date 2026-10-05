@@ -1,0 +1,14 @@
+{
+  "name": "Lady Nagant",
+  "role": "assassina do governo",
+  "quirk": "Rifle",
+  "honor": -3,
+  "reputation": -2,
+  "traits": [
+    "fria",
+    "cumpridora do dever"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

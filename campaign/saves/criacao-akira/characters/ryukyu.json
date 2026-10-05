@@ -1,0 +1,13 @@
+{
+  "name": "Ryukyu",
+  "role": "heroi",
+  "quirk": "Dragao",
+  "honor": 8,
+  "reputation": 6,
+  "traits": [
+    "firme"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

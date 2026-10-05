@@ -1,0 +1,4 @@
+# Notas do Mestre (segredos, foreshadowing, promessas feitas aos jogadores)
+
+- (2026-10-05) Akira: n?o controlar rea??es a provoca??es de altura. Classe decidida pelo resultado do exame, sem destino pr?-fixado; definir crit?rio justo antes das rolagens. Ficha ? rascunho; estat?sticas e regras adicionais da Individualidade s?o propostas ainda n?o aceitas. Honra inicial neutra, sem aplicar recompensas retroativas ao hist?rico. Cicatriz antiga ? apar?ncia, sem penalidade de ferimento ativo.
+- (2026-10-05) Registro corrigido de codificação: Akira permanece em criação. Não controlar reações a provocações de altura. Turma dependerá do exame; definir critério antes das rolagens. Estatísticas, técnicas e limites numéricos são propostas pendentes. Cicatriz antiga sem penalidade ativa; honra inicial neutra.

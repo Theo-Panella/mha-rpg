@@ -1,0 +1,13 @@
+{
+  "name": "Moonfish",
+  "role": "Liga dos Viloes",
+  "quirk": "Dentes de Lamina",
+  "honor": -5,
+  "reputation": -7,
+  "traits": [
+    "feroz"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

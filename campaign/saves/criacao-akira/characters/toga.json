@@ -1,0 +1,14 @@
+{
+  "name": "Himiko Toga",
+  "role": "Liga dos Viloes",
+  "quirk": "Transformacao",
+  "honor": -6,
+  "reputation": -8,
+  "traits": [
+    "obsessiva",
+    "carente"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

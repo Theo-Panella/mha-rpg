@@ -1,0 +1,13 @@
+{
+  "name": "Fat Gum",
+  "role": "heroi",
+  "quirk": "Absorver Gordura",
+  "honor": 8,
+  "reputation": 6,
+  "traits": [
+    "bonachao"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

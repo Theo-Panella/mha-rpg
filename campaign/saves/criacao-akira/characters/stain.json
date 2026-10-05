@@ -1,0 +1,15 @@
+{
+  "name": "Chizome Akaguro (Stain)",
+  "role": "Hero Killer",
+  "quirk": "Paralisia por sangue",
+  "honor": 6,
+  "reputation": -6,
+  "traits": [
+    "codigo rigido",
+    "ideologico",
+    "fanatico"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

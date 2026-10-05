@@ -1,0 +1,13 @@
+{
+  "name": "Muscular",
+  "role": "Liga dos Viloes",
+  "quirk": "Fibra Muscular",
+  "honor": -7,
+  "reputation": -8,
+  "traits": [
+    "brutal"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

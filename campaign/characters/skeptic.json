@@ -1,0 +1,13 @@
+{
+  "name": "Skeptic",
+  "role": "ELM",
+  "quirk": "Reflexo",
+  "honor": -5,
+  "reputation": -6,
+  "traits": [
+    "calculista"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

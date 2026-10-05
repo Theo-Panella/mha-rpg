@@ -1,0 +1,13 @@
+{
+  "name": "Best Jeanist",
+  "role": "heroi",
+  "quirk": "Fibra",
+  "honor": 5,
+  "reputation": 8,
+  "traits": [
+    "perfeccionista"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Sir Nighteye",
+  "role": "heroi",
+  "quirk": "Previsao",
+  "honor": 7,
+  "reputation": 6,
+  "traits": [
+    "racional",
+    "amargo"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

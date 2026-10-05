@@ -1,0 +1,1307 @@
+{
+  "meta": {
+    "campaign_name": "Plus Ultra",
+    "created": "2026-10-05T13:26:45",
+    "last_saved": "2026-10-05T13:31:04",
+    "revision": 27,
+    "session": 1,
+    "turn": 2,
+    "difficulty": "lenda",
+    "start_mode": "exame_UA_turma_por_resultado",
+    "creation_status": "concluida"
+  },
+  "world": {
+    "date": "0001-02-26",
+    "time_of_day": "manhã, antes da prova escrita",
+    "location": "Entrada da UA, junto ao acesso de serviço",
+    "canon_mode": "seguir_canone_com_divergencias"
+  },
+  "player": {
+    "name": "Akira Kemono",
+    "hero_name": "",
+    "age": 15,
+    "background": "Aos 6 anos, salvou a mãe puxando-a da trajetória de um carro sem freio. Aprimorou a Linha de Vetor em brincadeiras, arremessos precisos e ricochetes. Aos 14, tentou deter um assaltante no ensino fundamental: previu o ataque e acertou um projétil no joelho, mas o agressor absorveu o impacto com a própria Individualidade. A multidão e a sobrecarga causaram dor de cabeça; Akira acabou hospitalizado, com uma cicatriz no ombro. Aprendeu a buscar seu papel como cérebro do combate.",
+    "personality": "Tático, calculista, de reflexos apurados; prefere manter a calma e coordenar o esquadrão. Odeia ser chamado de baixinho ou sinônimos, podendo brigar por isso; reações são decididas pelo jogador.",
+    "goal": "Ingressar no curso de heróis da UA; motivação íntima a desenvolver pelo jogador.",
+    "level": 1,
+    "xp": 0,
+    "attrs": {
+      "FOR": 2,
+      "AGI": 5,
+      "VIG": 3,
+      "INT": 5,
+      "PER": 5,
+      "CAR": 2
+    },
+    "skills": {
+      "Pontaria": 3,
+      "Tática": 3,
+      "Acrobacia": 2,
+      "Investigação": 2,
+      "Resgate": 1,
+      "Luta": 1
+    },
+    "hp": {
+      "cur": 28,
+      "max": 28
+    },
+    "est": {
+      "cur": 9,
+      "max": 9
+    },
+    "det": {
+      "cur": 3,
+      "max": 3
+    },
+    "quirk": {
+      "name": "Linhas de Trajetória",
+      "category": "Emissao",
+      "pot": 2,
+      "ctl": 6,
+      "description": "Vê e materializa linhas luminosas de projeção. Linhas vermelhas antecipam ataques em frações de segundo, indicando direção e velocidade pela intensidade da cor. Linhas azuis mostram o percurso físico de objetos arremessados, incluindo ricochetes.",
+      "limits": "Concentração mental elevada; muitas trajetórias simultâneas provocam fortes dores de cabeça. alcance de leitura de 20 m, dependente de visão, sem atravessar obstáculos opacos; mudanças de forças ou movimento atualizam a previsão; luz sem solidez, sem força adicional. Foco seguro em até 3 trajetórias; ampliar para 4-6 por uma rodada custa +1 EST e causa Quirk-dor (-2 INT/PER/CTL) até 1 minuto de repouso sem leitura; mais de 6 excede a capacidade inicial.",
+      "moves": [
+        {
+          "name": "Linha de Vetor",
+          "cost": 0,
+          "effect": "Visualiza um arremesso e seus ricochetes possíveis; +2 em Pontaria quando houver tempo para alinhar a trajetória. Não aumenta dano nem dispensa teste sob risco."
+        },
+        {
+          "name": "Alerta Vermelho",
+          "cost": 1,
+          "effect": "Vantagem em uma reação de esquiva contra ataque visível cuja trajetória foi lida; consome a reação normal, sem garantir sucesso."
+        },
+        {
+          "name": "Mapa de Interceptação",
+          "cost": 2,
+          "effect": "Usa uma ação para projetar até 3 trajetórias visíveis para aliados e indicar uma abertura; concede vantagem ao próximo teste pertinente de Akira ou de um aliado antes do fim de seu próximo turno."
+        }
+      ]
+    },
+    "conditions": [],
+    "wounds": [],
+    "inventory": [
+      "Óculos quadrados",
+      "Mochila escolar",
+      "Celular",
+      "Documento e comprovante de inscrição na UA",
+      "Estojo com lápis, borracha e caneta",
+      "Garrafa de água"
+    ],
+    "costume": "",
+    "fame": 0,
+    "credibility": 0,
+    "school_rank": "Candidato à UA; turma indefinida",
+    "honor": 0,
+    "reputation": 0,
+    "code": "",
+    "traits": [
+      "Raciocínio tático",
+      "Reflexos apurados",
+      "Irrita-se com provocações sobre sua altura"
+    ],
+    "appearance": "1,60 m; mullet preto; óculos quadrados; corpo atlético magro; cicatriz antiga no ombro.",
+    "fear": "Ainda não definido pelo jogador."
+  },
+  "relationships": {
+    "mae_akira": {
+      "bond": 1,
+      "notes": "Vínculo inicial familiar confirmado; Akira a salvou de um carro sem freio aos 6 anos."
+    }
+  },
+  "npcs": {
+    "izuku": {
+      "name": "Izuku Midoriya (Deku)",
+      "role": "aluno 1-A",
+      "quirk": "One For All",
+      "honor": 8,
+      "reputation": 0,
+      "traits": [
+        "altruista",
+        "analitico",
+        "autossacrificio"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "katsuki": {
+      "name": "Katsuki Bakugo",
+      "role": "aluno 1-A",
+      "quirk": "Explosao",
+      "honor": 3,
+      "reputation": 2,
+      "traits": [
+        "orgulhoso",
+        "competitivo",
+        "explosivo"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "shoto": {
+      "name": "Shoto Todoroki",
+      "role": "aluno 1-A",
+      "quirk": "Meio Gelo Meio Fogo",
+      "honor": 4,
+      "reputation": 3,
+      "traits": [
+        "reservado",
+        "ferido pela familia"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "iida": {
+      "name": "Tenya Iida",
+      "role": "aluno 1-A",
+      "quirk": "Engine",
+      "honor": 8,
+      "reputation": 2,
+      "traits": [
+        "rigido",
+        "etico",
+        "vingativo (Stain)"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "uraraka": {
+      "name": "Ochaco Uraraka",
+      "role": "aluno 1-A",
+      "quirk": "Gravidade Zero",
+      "honor": 7,
+      "reputation": 1,
+      "traits": [
+        "calorosa",
+        "determinada"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "momo": {
+      "name": "Momo Yaoyorozu",
+      "role": "aluno 1-A",
+      "quirk": "Criacao",
+      "honor": 7,
+      "reputation": 3,
+      "traits": [
+        "inteligente",
+        "insegura"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "kirishima": {
+      "name": "Eijiro Kirishima",
+      "role": "aluno 1-A",
+      "quirk": "Endurecimento",
+      "honor": 8,
+      "reputation": 1,
+      "traits": [
+        "leal",
+        "viril"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "kaminari": {
+      "name": "Denki Kaminari",
+      "role": "aluno 1-A",
+      "quirk": "Eletrificacao",
+      "honor": 4,
+      "reputation": 1,
+      "traits": [
+        "despreocupado"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "jiro": {
+      "name": "Kyoka Jiro",
+      "role": "aluno 1-A",
+      "quirk": "Fone de Ouvido",
+      "honor": 6,
+      "reputation": 1,
+      "traits": [
+        "ironica",
+        "musical"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "tsuyu": {
+      "name": "Tsuyu Asui",
+      "role": "aluno 1-A",
+      "quirk": "Ra",
+      "honor": 7,
+      "reputation": 1,
+      "traits": [
+        "franca",
+        "calma"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "ojiro": {
+      "name": "Mashirao Ojiro",
+      "role": "aluno 1-A",
+      "quirk": "Cauda",
+      "honor": 6,
+      "reputation": 1,
+      "traits": [
+        "disciplinado"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "sato": {
+      "name": "Rikido Sato",
+      "role": "aluno 1-A",
+      "quirk": "Acucar",
+      "honor": 5,
+      "reputation": 1,
+      "traits": [
+        "gentil"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "koda": {
+      "name": "Koji Koda",
+      "role": "aluno 1-A",
+      "quirk": "Voz de Animais",
+      "honor": 7,
+      "reputation": 0,
+      "traits": [
+        "timido",
+        "empatico"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "tokoyami": {
+      "name": "Fumikage Tokoyami",
+      "role": "aluno 1-A",
+      "quirk": "Sombra Escura",
+      "honor": 6,
+      "reputation": 1,
+      "traits": [
+        "sombrio",
+        "leal"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "hagakure": {
+      "name": "Toru Hagakure",
+      "role": "aluno 1-A",
+      "quirk": "Invisibilidade",
+      "honor": 5,
+      "reputation": 0,
+      "traits": [
+        "animada"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "sero": {
+      "name": "Hanta Sero",
+      "role": "aluno 1-A",
+      "quirk": "Fita",
+      "honor": 5,
+      "reputation": 1,
+      "traits": [
+        "descontraido"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "mina": {
+      "name": "Mina Ashido",
+      "role": "aluno 1-A",
+      "quirk": "Acido",
+      "honor": 5,
+      "reputation": 1,
+      "traits": [
+        "alegre"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "aoyama": {
+      "name": "Yuga Aoyama",
+      "role": "aluno 1-A",
+      "quirk": "Laser no Umbigo",
+      "honor": 3,
+      "reputation": 1,
+      "traits": [
+        "teatral",
+        "segredo (traidor)"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "mineta": {
+      "name": "Minoru Mineta",
+      "role": "aluno 1-A",
+      "quirk": "Pop Off",
+      "honor": -2,
+      "reputation": 0,
+      "traits": [
+        "pervertido",
+        "covarde, mas pode surpreender"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "shoji": {
+      "name": "Mezo Shoji",
+      "role": "aluno 1-A",
+      "quirk": "Bracos Multiplos",
+      "honor": 7,
+      "reputation": 1,
+      "traits": [
+        "calado",
+        "protetor"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "monoma": {
+      "name": "Neito Monoma",
+      "role": "aluno 1-B",
+      "quirk": "Copia",
+      "honor": 0,
+      "reputation": 1,
+      "traits": [
+        "arrogante",
+        "rival"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "kendo": {
+      "name": "Itsuka Kendo",
+      "role": "aluno 1-B",
+      "quirk": "Gigantes",
+      "honor": 8,
+      "reputation": 1,
+      "traits": [
+        "lider",
+        "justa"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "aizawa": {
+      "name": "Shota Aizawa (Eraser Head)",
+      "role": "professor",
+      "quirk": "Apagar",
+      "honor": 7,
+      "reputation": 3,
+      "traits": [
+        "racional",
+        "protetor",
+        "cansado"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "all_might": {
+      "name": "Toshinori Yagi (All Might)",
+      "role": "professor/ex-n1",
+      "quirk": "One For All",
+      "honor": 10,
+      "reputation": 10,
+      "traits": [
+        "simbolo",
+        "sacrificio",
+        "grandiloquente"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "nezu": {
+      "name": "Nezu",
+      "role": "diretor da UA",
+      "quirk": "Super inteligencia",
+      "honor": 3,
+      "reputation": 6,
+      "traits": [
+        "estrategista",
+        "pragmatico"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "present_mic": {
+      "name": "Present Mic",
+      "role": "professor",
+      "quirk": "Voz",
+      "honor": 6,
+      "reputation": 5,
+      "traits": [
+        "expansivo"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "midnight": {
+      "name": "Midnight",
+      "role": "professora",
+      "quirk": "Sonolencia",
+      "honor": 5,
+      "reputation": 5,
+      "traits": [
+        "provocadora",
+        "firme"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "recovery_girl": {
+      "name": "Recovery Girl",
+      "role": "enfermeira",
+      "quirk": "Cura",
+      "honor": 8,
+      "reputation": 5,
+      "traits": [
+        "maternal"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "thirteen": {
+      "name": "Thirteen",
+      "role": "professora/heroi",
+      "quirk": "Buraco Negro",
+      "honor": 8,
+      "reputation": 5,
+      "traits": [
+        "protetora"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "endeavor": {
+      "name": "Enji Todoroki (Endeavor)",
+      "role": "heroi n2",
+      "quirk": "Hellflame",
+      "honor": -3,
+      "reputation": 8,
+      "traits": [
+        "ambicioso",
+        "abusivo",
+        "em redencao potencial"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "hawks": {
+      "name": "Keigo Takami (Hawks)",
+      "role": "heroi/agente da Comissao",
+      "quirk": "Asas",
+      "honor": 3,
+      "reputation": 8,
+      "traits": [
+        "charmoso",
+        "duplo",
+        "pragmatico"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "gran_torino": {
+      "name": "Gran Torino",
+      "role": "mentor/heroi",
+      "quirk": "Jet",
+      "honor": 7,
+      "reputation": 5,
+      "traits": [
+        "teimoso",
+        "leal"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "nighteye": {
+      "name": "Sir Nighteye",
+      "role": "heroi",
+      "quirk": "Previsao",
+      "honor": 7,
+      "reputation": 6,
+      "traits": [
+        "racional",
+        "amargo"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "mirio": {
+      "name": "Mirio Togata (Lemillion)",
+      "role": "aluno 3",
+      "quirk": "Permeacao",
+      "honor": 10,
+      "reputation": 5,
+      "traits": [
+        "radiante",
+        "altruista"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "tamaki": {
+      "name": "Tamaki Amajiki",
+      "role": "aluno 3",
+      "quirk": "Manifestacao",
+      "honor": 7,
+      "reputation": 3,
+      "traits": [
+        "timido",
+        "poderoso"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "nejire": {
+      "name": "Nejire Hado",
+      "role": "aluna 3",
+      "quirk": "Onda Espiral",
+      "honor": 6,
+      "reputation": 3,
+      "traits": [
+        "curiosa"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "gang_orca": {
+      "name": "Gang Orca",
+      "role": "heroi",
+      "quirk": "Super Onda Sonora",
+      "honor": 7,
+      "reputation": 6,
+      "traits": [
+        "intimidador",
+        "gentil"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "pixie_bob": {
+      "name": "Pixie-Bob",
+      "role": "heroi (Wild Wild Pussycats)",
+      "quirk": "Terra",
+      "honor": 7,
+      "reputation": 4,
+      "traits": [
+        "animada"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "ingenium": {
+      "name": "Tensei Iida (Ingenium)",
+      "role": "heroi",
+      "quirk": "Engine",
+      "honor": 9,
+      "reputation": 7,
+      "traits": [
+        "exemplar"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "best_jeanist": {
+      "name": "Best Jeanist",
+      "role": "heroi",
+      "quirk": "Fibra",
+      "honor": 5,
+      "reputation": 8,
+      "traits": [
+        "perfeccionista"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "fat_gum": {
+      "name": "Fat Gum",
+      "role": "heroi",
+      "quirk": "Absorver Gordura",
+      "honor": 8,
+      "reputation": 6,
+      "traits": [
+        "bonachao"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "ryukyu": {
+      "name": "Ryukyu",
+      "role": "heroi",
+      "quirk": "Dragao",
+      "honor": 8,
+      "reputation": 6,
+      "traits": [
+        "firme"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "tomura": {
+      "name": "Tomura Shigaraki",
+      "role": "lider da Liga dos Viloes",
+      "quirk": "Decaimento",
+      "honor": -7,
+      "reputation": -9,
+      "traits": [
+        "destrutivo",
+        "carismatico",
+        "isolado"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "all_for_one": {
+      "name": "All For One",
+      "role": "vilao supremo",
+      "quirk": "All For One",
+      "honor": -10,
+      "reputation": -9,
+      "traits": [
+        "manipulador",
+        "onipresente"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "kurogiri": {
+      "name": "Kurogiri",
+      "role": "Liga dos Viloes",
+      "quirk": "Warp Gate",
+      "honor": -3,
+      "reputation": -7,
+      "traits": [
+        "leal",
+        "misterioso"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "dabi": {
+      "name": "Dabi",
+      "role": "Liga dos Viloes",
+      "quirk": "Cremacao",
+      "honor": -6,
+      "reputation": -8,
+      "traits": [
+        "frio",
+        "segredo (Toya Todoroki)"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "toga": {
+      "name": "Himiko Toga",
+      "role": "Liga dos Viloes",
+      "quirk": "Transformacao",
+      "honor": -6,
+      "reputation": -8,
+      "traits": [
+        "obsessiva",
+        "carente"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "twice": {
+      "name": "Twice",
+      "role": "Liga dos Viloes",
+      "quirk": "Duplicata",
+      "honor": 1,
+      "reputation": -8,
+      "traits": [
+        "instavel",
+        "leal aos amigos"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "spinner": {
+      "name": "Spinner",
+      "role": "Liga dos Viloes",
+      "quirk": "Lagarto",
+      "honor": 2,
+      "reputation": -7,
+      "traits": [
+        "devoto a Stain",
+        "codigo proprio"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "mr_compress": {
+      "name": "Mr. Compress",
+      "role": "Liga dos Viloes",
+      "quirk": "Compressao",
+      "honor": -3,
+      "reputation": -7,
+      "traits": [
+        "teatral"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "magne": {
+      "name": "Magne",
+      "role": "Liga dos Viloes",
+      "quirk": "Magnetismo",
+      "honor": -2,
+      "reputation": -7,
+      "traits": [
+        "cuidadosa com os seus"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "muscular": {
+      "name": "Muscular",
+      "role": "Liga dos Viloes",
+      "quirk": "Fibra Muscular",
+      "honor": -7,
+      "reputation": -8,
+      "traits": [
+        "brutal"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "moonfish": {
+      "name": "Moonfish",
+      "role": "Liga dos Viloes",
+      "quirk": "Dentes de Lamina",
+      "honor": -5,
+      "reputation": -7,
+      "traits": [
+        "feroz"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "stain": {
+      "name": "Chizome Akaguro (Stain)",
+      "role": "Hero Killer",
+      "quirk": "Paralisia por sangue",
+      "honor": 6,
+      "reputation": -6,
+      "traits": [
+        "codigo rigido",
+        "ideologico",
+        "fanatico"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "overhaul": {
+      "name": "Kai Chisaki (Overhaul)",
+      "role": "chefe Hassaikai",
+      "quirk": "Overhaul",
+      "honor": -9,
+      "reputation": -6,
+      "traits": [
+        "fanatico",
+        "germofobo"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "eri": {
+      "name": "Eri",
+      "role": "menina com Rewind",
+      "quirk": "Rewind",
+      "honor": 10,
+      "reputation": 0,
+      "traits": [
+        "inocente",
+        "traumatizada"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "re_destro": {
+      "name": "Re-Destro",
+      "role": "lider ELM",
+      "quirk": "Stress",
+      "honor": 0,
+      "reputation": -4,
+      "traits": [
+        "ideologico",
+        "visionario"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "gigantomachia": {
+      "name": "Gigantomachia",
+      "role": "Liga/ELM",
+      "quirk": "Titan",
+      "honor": -2,
+      "reputation": -9,
+      "traits": [
+        "leal a AFO"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "skeptic": {
+      "name": "Skeptic",
+      "role": "ELM",
+      "quirk": "Reflexo",
+      "honor": -5,
+      "reputation": -6,
+      "traits": [
+        "calculista"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "kota": {
+      "name": "Kota Izumi",
+      "role": "crianca",
+      "quirk": "Aqua Set",
+      "honor": 5,
+      "reputation": 0,
+      "traits": [
+        "ferido pela perda dos pais"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "shinso": {
+      "name": "Hitoshi Shinso",
+      "role": "aluno Gerais",
+      "quirk": "Lavagem Cerebral",
+      "honor": 6,
+      "reputation": 1,
+      "traits": [
+        "determinado",
+        "vitima de preconceito"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "hatsume": {
+      "name": "Mei Hatsume",
+      "role": "aluna Apoio",
+      "quirk": "Zoom",
+      "honor": 4,
+      "reputation": 1,
+      "traits": [
+        "inventora obsessiva"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "mirko": {
+      "name": "Mirko (Rumi Usagiyama)",
+      "role": "heroi",
+      "quirk": "Coelho",
+      "honor": 5,
+      "reputation": 8,
+      "traits": [
+        "feroz",
+        "direta"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "edgeshot": {
+      "name": "Edgeshot",
+      "role": "heroi",
+      "quirk": "Folding",
+      "honor": 7,
+      "reputation": 7,
+      "traits": [
+        "ninja",
+        "discreto"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "mandalay": {
+      "name": "Mandalay",
+      "role": "heroi (Wild Wild Pussycats)",
+      "quirk": "Telepatia",
+      "honor": 7,
+      "reputation": 4,
+      "traits": [
+        "maternal"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "rappa": {
+      "name": "Rappa",
+      "role": "heroi (verificar papel)",
+      "quirk": "?",
+      "honor": 5,
+      "reputation": 3,
+      "traits": [
+        "verificar"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "chronostasis": {
+      "name": "Chronostasis",
+      "role": "heroi (verificar papel)",
+      "quirk": "?",
+      "honor": 5,
+      "reputation": 3,
+      "traits": [
+        "verificar"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "nagant": {
+      "name": "Lady Nagant",
+      "role": "assassina do governo",
+      "quirk": "Rifle",
+      "honor": -3,
+      "reputation": -2,
+      "traits": [
+        "fria",
+        "cumpridora do dever"
+      ],
+      "status": "vivo",
+      "location": "",
+      "notes": ""
+    },
+    "mae_akira": {
+      "name": "Mãe de Akira Kemono",
+      "role": "Mãe do PJ; primeiro nome ainda não definido",
+      "quirk": "",
+      "honor": 0,
+      "reputation": 0,
+      "traits": [],
+      "status": "vivo",
+      "location": "",
+      "notes": "Salva por Akira de um carro sem freio quando ele tinha 6 anos. Vínculo inicial escolhido pelo jogador."
+    }
+  },
+  "factions": {},
+  "threads": [],
+  "honor_log": [],
+  "flags": {
+    "creation_pending": [],
+    "exam": {
+      "status": "antes_da_prova_escrita",
+      "class_assignment": "Regra desta campanha: aprovação na prova escrita e total no prático de 60+ para 1-A; 35-59 para 1-B; abaixo de 35 sem aprovação no curso de heróis. Total do prático inclui combate e avaliação de resgate. A/B não é hierarquia de qualidade das turmas. Critérios fixados antes dos dados.",
+      "written": {
+        "status": "pendente",
+        "resolution": "Prova resumida em INT+Conhecimento (sem treino), DC12, sem Linha de Vetor. Sucesso aprova; parcial permite revisão com tempo adicional e segunda checagem DC12; falha permite recuperação oral INT+Tática DC14. Falha na segunda etapa reprova o escrito. DET disponível normalmente."
+      },
+      "combat_points": 0,
+      "rescue_points": 0,
+      "written_passed": null,
+      "equipment": "Equipamento de arremesso a escolher pelo jogador antes do prático; não atribuir facas automaticamente."
+    }
+  },
+  "divergences": [],
+  "canon_events": {
+    "P01": {
+      "status": "canon"
+    },
+    "P02": {
+      "status": "canon"
+    },
+    "A01": {
+      "status": "pending"
+    },
+    "A02": {
+      "status": "pending"
+    },
+    "A03": {
+      "status": "pending"
+    },
+    "A04": {
+      "status": "pending"
+    },
+    "B01": {
+      "status": "pending"
+    },
+    "C01": {
+      "status": "pending"
+    },
+    "C02": {
+      "status": "pending"
+    },
+    "C03": {
+      "status": "pending"
+    },
+    "C04": {
+      "status": "pending"
+    },
+    "C05": {
+      "status": "pending"
+    },
+    "C06": {
+      "status": "pending"
+    },
+    "C07": {
+      "status": "pending"
+    },
+    "C08": {
+      "status": "pending"
+    },
+    "C09": {
+      "status": "pending"
+    },
+    "D01": {
+      "status": "pending"
+    },
+    "D03": {
+      "status": "pending"
+    },
+    "D04": {
+      "status": "pending"
+    },
+    "D02": {
+      "status": "pending"
+    },
+    "D06": {
+      "status": "pending"
+    },
+    "E01": {
+      "status": "pending"
+    },
+    "E03": {
+      "status": "pending"
+    },
+    "E02": {
+      "status": "pending"
+    },
+    "E04": {
+      "status": "pending"
+    },
+    "E05": {
+      "status": "pending"
+    },
+    "E06": {
+      "status": "pending"
+    },
+    "E07": {
+      "status": "pending"
+    },
+    "F03": {
+      "status": "pending"
+    },
+    "F04": {
+      "status": "pending"
+    },
+    "F01": {
+      "status": "pending"
+    },
+    "F06": {
+      "status": "pending"
+    },
+    "F02": {
+      "status": "pending"
+    },
+    "G01": {
+      "status": "pending"
+    },
+    "G02": {
+      "status": "pending"
+    },
+    "H01": {
+      "status": "pending"
+    },
+    "G05": {
+      "status": "pending"
+    },
+    "H03": {
+      "status": "pending"
+    },
+    "H04": {
+      "status": "pending"
+    },
+    "H05": {
+      "status": "pending"
+    },
+    "H06": {
+      "status": "pending"
+    },
+    "H07": {
+      "status": "pending"
+    },
+    "H02": {
+      "status": "pending"
+    },
+    "H08": {
+      "status": "pending"
+    },
+    "I01": {
+      "status": "pending"
+    },
+    "I03": {
+      "status": "pending"
+    },
+    "J01": {
+      "status": "pending"
+    },
+    "K01": {
+      "status": "pending"
+    },
+    "K04": {
+      "status": "pending"
+    },
+    "K02": {
+      "status": "pending"
+    },
+    "L01": {
+      "status": "pending"
+    },
+    "L05": {
+      "status": "pending"
+    },
+    "L06": {
+      "status": "pending"
+    },
+    "L07": {
+      "status": "pending"
+    },
+    "L02": {
+      "status": "pending"
+    },
+    "L09": {
+      "status": "pending"
+    },
+    "L10": {
+      "status": "pending"
+    },
+    "L11": {
+      "status": "pending"
+    },
+    "N01": {
+      "status": "pending"
+    },
+    "N03": {
+      "status": "pending"
+    },
+    "N05": {
+      "status": "pending"
+    },
+    "N06": {
+      "status": "pending"
+    },
+    "N07": {
+      "status": "pending"
+    },
+    "N08": {
+      "status": "pending"
+    },
+    "N09": {
+      "status": "pending"
+    },
+    "N10": {
+      "status": "pending"
+    },
+    "N02": {
+      "status": "pending"
+    },
+    "N13": {
+      "status": "pending"
+    },
+    "N14": {
+      "status": "pending"
+    },
+    "N15": {
+      "status": "pending"
+    },
+    "N16": {
+      "status": "pending"
+    },
+    "N17": {
+      "status": "pending"
+    },
+    "N18": {
+      "status": "pending"
+    },
+    "Z02": {
+      "status": "pending"
+    },
+    "Z01": {
+      "status": "pending"
+    }
+  },
+  "combat": null
+}

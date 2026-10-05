@@ -1,0 +1,14 @@
+{
+  "name": "Kurogiri",
+  "role": "Liga dos Viloes",
+  "quirk": "Warp Gate",
+  "honor": -3,
+  "reputation": -7,
+  "traits": [
+    "leal",
+    "misterioso"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

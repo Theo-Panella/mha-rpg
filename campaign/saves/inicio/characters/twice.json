@@ -1,0 +1,14 @@
+{
+  "name": "Twice",
+  "role": "Liga dos Viloes",
+  "quirk": "Duplicata",
+  "honor": 1,
+  "reputation": -8,
+  "traits": [
+    "instavel",
+    "leal aos amigos"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

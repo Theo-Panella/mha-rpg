@@ -1,0 +1,87 @@
+{
+  "name": "Akira Kemono",
+  "hero_name": "",
+  "age": 15,
+  "background": "Aos 6 anos, salvou a mãe puxando-a da trajetória de um carro sem freio. Aprimorou a Linha de Vetor em brincadeiras, arremessos precisos e ricochetes. Aos 14, tentou deter um assaltante no ensino fundamental: previu o ataque e acertou um projétil no joelho, mas o agressor absorveu o impacto com a própria Individualidade. A multidão e a sobrecarga causaram dor de cabeça; Akira acabou hospitalizado, com uma cicatriz no ombro. Aprendeu a buscar seu papel como cérebro do combate.",
+  "personality": "Tático, calculista, de reflexos apurados; prefere manter a calma e coordenar o esquadrão. Odeia ser chamado de baixinho ou sinônimos, podendo brigar por isso; reações são decididas pelo jogador.",
+  "goal": "Ingressar no curso de heróis da UA; motivação íntima a desenvolver pelo jogador.",
+  "level": 1,
+  "xp": 1,
+  "attrs": {
+    "FOR": 2,
+    "AGI": 5,
+    "VIG": 3,
+    "INT": 5,
+    "PER": 5,
+    "CAR": 2
+  },
+  "skills": {
+    "Pontaria": 3,
+    "Tática": 3,
+    "Acrobacia": 2,
+    "Investigação": 2,
+    "Resgate": 1,
+    "Luta": 1
+  },
+  "hp": {
+    "cur": 28,
+    "max": 28
+  },
+  "est": {
+    "cur": 9,
+    "max": 9
+  },
+  "det": {
+    "cur": 3,
+    "max": 3
+  },
+  "quirk": {
+    "name": "Linhas de Trajetória",
+    "category": "Emissao",
+    "pot": 2,
+    "ctl": 6,
+    "description": "Vê e materializa linhas luminosas de projeção. Linhas vermelhas antecipam ataques em frações de segundo, indicando direção e velocidade pela intensidade da cor. Linhas azuis mostram o percurso físico de objetos arremessados, incluindo ricochetes.",
+    "limits": "Concentração mental elevada; muitas trajetórias simultâneas provocam fortes dores de cabeça. alcance de leitura de 20 m, dependente de visão, sem atravessar obstáculos opacos; mudanças de forças ou movimento atualizam a previsão; luz sem solidez, sem força adicional. Foco seguro em até 3 trajetórias; ampliar para 4-6 por uma rodada custa +1 EST e causa Quirk-dor (-2 INT/PER/CTL) até 1 minuto de repouso sem leitura; mais de 6 excede a capacidade inicial.",
+    "moves": [
+      {
+        "name": "Linha de Vetor",
+        "cost": 0,
+        "effect": "Visualiza um arremesso e seus ricochetes possíveis; +2 em Pontaria quando houver tempo para alinhar a trajetória. Não aumenta dano nem dispensa teste sob risco."
+      },
+      {
+        "name": "Alerta Vermelho",
+        "cost": 1,
+        "effect": "Vantagem em uma reação de esquiva contra ataque visível cuja trajetória foi lida; consome a reação normal, sem garantir sucesso."
+      },
+      {
+        "name": "Mapa de Interceptação",
+        "cost": 2,
+        "effect": "Usa uma ação para projetar até 3 trajetórias visíveis para aliados e indicar uma abertura; concede vantagem ao próximo teste pertinente de Akira ou de um aliado antes do fim de seu próximo turno."
+      }
+    ]
+  },
+  "conditions": [],
+  "wounds": [],
+  "inventory": [
+    "Óculos quadrados",
+    "Mochila escolar",
+    "Celular",
+    "Documento e comprovante de inscrição na UA",
+    "Estojo com lápis, borracha e caneta",
+    "Garrafa de água"
+  ],
+  "costume": "",
+  "fame": 0,
+  "credibility": 0,
+  "school_rank": "Candidato à UA; turma indefinida",
+  "honor": 1,
+  "reputation": 0,
+  "code": "",
+  "traits": [
+    "Raciocínio tático",
+    "Reflexos apurados",
+    "Irrita-se com provocações sobre sua altura"
+  ],
+  "appearance": "1,60 m; mullet preto; óculos quadrados; corpo atlético magro; cicatriz antiga no ombro.",
+  "fear": "Ainda não definido pelo jogador."
+}

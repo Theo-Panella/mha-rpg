@@ -1,0 +1,15 @@
+{
+  "name": "Tomura Shigaraki",
+  "role": "lider da Liga dos Viloes",
+  "quirk": "Decaimento",
+  "honor": -7,
+  "reputation": -9,
+  "traits": [
+    "destrutivo",
+    "carismatico",
+    "isolado"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Midnight",
+  "role": "professora",
+  "quirk": "Sonolencia",
+  "honor": 5,
+  "reputation": 5,
+  "traits": [
+    "provocadora",
+    "firme"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}

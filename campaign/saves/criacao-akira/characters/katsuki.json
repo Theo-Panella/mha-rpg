@@ -1,0 +1,15 @@
+{
+  "name": "Katsuki Bakugo",
+  "role": "aluno 1-A",
+  "quirk": "Explosao",
+  "honor": 3,
+  "reputation": 2,
+  "traits": [
+    "orgulhoso",
+    "competitivo",
+    "explosivo"
+  ],
+  "status": "vivo",
+  "location": "",
+  "notes": ""
+}
