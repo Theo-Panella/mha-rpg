@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "campaign_name": "Plus Ultra",
+    "created": "",
+    "last_saved": "",
+    "revision": 0,
+    "session": 1,
+    "turn": 0,
+    "difficulty": "heroico",
+    "start_mode": ""
+  },
+  "world": {
+    "date": "0001-02-01",
+    "time_of_day": "manha",
+    "location": "",
+    "canon_mode": "seguir_canone_com_divergencias"
+  },
+  "player": {
+    "name": "",
+    "hero_name": "",
+    "age": 15,
+    "background": "",
+    "personality": "",
+    "goal": "",
+    "level": 1,
+    "xp": 0,
+    "attrs": { "FOR": 3, "AGI": 3, "VIG": 3, "INT": 3, "PER": 3, "CAR": 3 },
+    "skills": {},
+    "hp": { "cur": 28, "max": 28 },
+    "est": { "cur": 10, "max": 10 },
+    "det": { "cur": 3, "max": 3 },
+    "quirk": {
+      "name": "",
+      "category": "",
+      "description": "",
+      "pot": 3,
+      "ctl": 2,
+      "limits": "",
+      "moves": []
+    },
+    "conditions": [],
+    "wounds": [],
+    "inventory": [],
+    "costume": "",
+    "fame": 0,
+    "credibility": 0,
+    "school_rank": "-",
+    "honor": 0,
+    "reputation": 0,
+    "code": "",
+    "traits": []
+  },
+  "relationships": {},
+  "npcs": {},
+  "factions": {},
+  "threads": [],
+  "honor_log": [],
+  "flags": {},
+  "divergences": [],
+  "canon_events": {},
+  "combat": null
+}

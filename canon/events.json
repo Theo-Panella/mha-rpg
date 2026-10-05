@@ -1,0 +1,1339 @@
+[
+ {
+  "id": "P01",
+  "order": 1,
+  "arc": "Pre-historia",
+  "date": "-0005-00",
+  "title": "Ultima luta de All Might x All For One",
+  "hinge": 3,
+  "key_npcs": [
+   "all_might",
+   "all_for_one"
+  ],
+  "summary": "All Might e All For One travam o confronto decisivo anos antes da historia. All Might vence, mas sofre um ferimento grave (estomago e pulmoes destruidos) e passa a ter pouco tempo de forma de musculos por dia.",
+  "if_changed": "Mudar isto redesenha o mundo inteiro. So permitido como 'what if' declarado pelo jogador na criacao.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "P02",
+  "order": 2,
+  "arc": "Pre-historia",
+  "date": "0000-04-01",
+  "title": "Deku encontra All Might e herda o One For All",
+  "hinge": 3,
+  "key_npcs": [
+   "izuku",
+   "all_might"
+  ],
+  "summary": "Incidente do Vilao de Lodo. Deku, sem Individualidade, se joga para salvar Bakugo. All Might o reconhece como heroi e oferece o One For All. 10 meses de treino na praia de Dagobah.",
+  "if_changed": "O jogador pode interferir (ex.: estar na cena). O herdeiro do OFA pode mudar, mas o custo narrativo e enorme.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "A01",
+  "order": 3,
+  "arc": "Exame de Admissao",
+  "date": "0001-02-26",
+  "title": "Exame pratico da UA",
+  "hinge": 1,
+  "key_npcs": [
+   "izuku",
+   "uraraka",
+   "present_mic"
+  ],
+  "summary": "Robos de 1, 2, 3 pontos e o Zero-Pontos gigante. Deku salva Uraraka e destroi o robo com um soco que quebra seu corpo. Pontos de Resgate: Deku e Uraraka passam. Bakugo em 1o lugar.",
+  "if_changed": "Jogador pode ficar em qualquer posicao; vagas em 1-A sao limitadas. Resgates mudam quem entra.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "A02",
+  "order": 4,
+  "arc": "Ingresso na UA",
+  "date": "0001-04-06",
+  "title": "Teste de Aptidao de Individualidade",
+  "hinge": 1,
+  "key_npcs": [
+   "aizawa",
+   "izuku",
+   "katsuki"
+  ],
+  "summary": "Aizawa ameaca expulsar o ultimo colocado (e uma pegadinha racional). Deku usa 1 dedo do OFA. Bakugo confronta Deku. Todos aprovados.",
+  "if_changed": "Se alguem for realmente expulso, Aizawa cumpre: mostre o peso da decisao dele.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "A03",
+  "order": 5,
+  "arc": "Ingresso na UA",
+  "date": "0001-04-09",
+  "title": "Treino de Combate: Deku+Uraraka x Bakugo+Iida",
+  "hinge": 1,
+  "key_npcs": [
+   "izuku",
+   "katsuki",
+   "iida",
+   "uraraka",
+   "all_might"
+  ],
+  "summary": "Bakugo ataca Deku com rancor, Deku vence com golpe de teto e braco quebrado. All Might ve o abismo emocional entre os dois.",
+  "if_changed": "Sem este evento, o rancor Bakugo/Deku se acumula e explode depois.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "A04",
+  "order": 6,
+  "arc": "Ingresso na UA",
+  "date": "0001-04-12",
+  "title": "Imprensa na UA e eleicao de representante",
+  "hinge": 1,
+  "key_npcs": [
+   "iida",
+   "izuku",
+   "momo"
+  ],
+  "summary": "Imprensa invade, Iida desativa o panico (\"Estou muito calmo!\"), Deku cede a representacao a Iida; Momo vice.",
+  "if_changed": "Quem for representante ganha peso politico e responsabilidade em arcos futuros.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "B01",
+  "order": 7,
+  "arc": "Ataque ao USJ",
+  "date": "0001-04-15",
+  "title": "Ataque da Liga dos Viloes ao USJ",
+  "hinge": 3,
+  "key_npcs": [
+   "tomura",
+   "kurogiri",
+   "aizawa",
+   "all_might",
+   "izuku"
+  ],
+  "summary": "Kurogiri dispersa a turma; Shigaraki e o Nomu (feito para matar All Might). Aizawa destruido (cotovelos, rosto). Deku quebra os dois bracos, Todoroki, Bakugo e Kirishima ajudam. All Might derrota o Nomu mas gasta o tempo. Shigaraki sente raiva por ser desprezado.",
+  "if_changed": "Alta inercia. Alunos mortos aqui sacudiriam a escola inteira (Nezu muda toda a politica).",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "C01",
+  "order": 8,
+  "arc": "Festival Esportivo",
+  "date": "0001-05-10",
+  "title": "Festival Esportivo da UA",
+  "hinge": 2,
+  "key_npcs": [
+   "izuku",
+   "katsuki",
+   "shoto",
+   "shinso",
+   "endeavor",
+   "all_might"
+  ],
+  "summary": "Corrida de obstaculos (Deku 1o), Batalha de Cavalaria, torneio. Deku x Shinso, Deku x Todoroki (Shoto usa o fogo pela primeira vez), Bakugo x Todoroki. Bakugo vence e e humilhado por ter ganho preso a correntes. Todos sao vistos pelo pais inteiro.",
+  "if_changed": "Resultados mudam ofertas de estagio e fama. Shoto aceitar o fogo e um marco emocional.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "C02",
+  "order": 8.1,
+  "arc": "Festival Esportivo",
+  "date": "0001-05-10",
+  "title": "Declaracoes de guerra antes do Festival",
+  "summary": "Katsuki avisa a toda a turma que vai ficar em 1o; a Classe 1-B (Monoma) provoca a 1-A. Shoto declara a Deku que pretende vence-lo.",
+  "hinge": 1,
+  "key_npcs": [
+   "katsuki",
+   "shoto",
+   "izuku",
+   "monoma"
+  ],
+  "if_changed": "Rivalidades ja estabelecidas; o jogador pode ser alvo de uma declaracao e ganhar um rival pessoal.",
+  "source": "Arco Festival Esportivo (caps. ~28-31); https://myheroacademia.fandom.com/wiki/Sports_Festival_Arc",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "C03",
+  "order": 8.2,
+  "arc": "Festival Esportivo",
+  "date": "0001-05-10",
+  "title": "Corrida de obstaculos (1a prova)",
+  "summary": "Shoto congela o inicio da corrida; Deku usa um robo Zero-Pontos como escudo e prancha no campo minado e termina em 1o, com Katsuki em 2o e Shoto em 3o. Os 42 primeiros se classificam.",
+  "hinge": 1,
+  "key_npcs": [
+   "izuku",
+   "shoto",
+   "katsuki",
+   "mineta"
+  ],
+  "if_changed": "A colocacao muda quem recebe atencao do publico e dos herois; classificar o jogador exige um bom desempenho.",
+  "source": "Arco Festival Esportivo (caps. ~31-33); wiki Sports Festival Arc",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "C04",
+  "order": 8.3,
+  "arc": "Festival Esportivo",
+  "date": "0001-05-10",
+  "title": "Batalha de Cavalaria",
+  "summary": "Equipes disputam bandanas por pontos; Deku, com Uraraka, Tokoyami e Hatsume, carrega a bandana de 10 milhoes (ponto do 1o lugar). Classificam-se as equipes de Shoto (Iida, Momo, Kaminari), Bakugo (Kirishima, Sero, Ashido), Shinso (Shoda, Aoyama, Ojiro) e Deku.",
+  "hinge": 1,
+  "key_npcs": [
+   "izuku",
+   "shoto",
+   "katsuki",
+   "shinso",
+   "hatsume",
+   "tokoyami",
+   "uraraka"
+  ],
+  "if_changed": "Formar equipe e laco social: escolher aliados diferentes muda quem avanca ao torneio.",
+  "source": "Arco Festival Esportivo (caps. ~34-37); wiki Sports Festival Arc. Detalhes da composicao das equipes finais: verificar.",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "C05",
+  "order": 8.4,
+  "arc": "Festival Esportivo",
+  "date": "0001-05-10",
+  "title": "Deku x Shinso (1a rodada)",
+  "summary": "Shinso usa a lavagem cerebral e faz Deku caminhar rumo a borda do ringue; Deku se liberta com um impulso do One For All e vence expulsando Shinso do ringue.",
+  "hinge": 1,
+  "key_npcs": [
+   "izuku",
+   "shinso"
+  ],
+  "if_changed": "Shinso pode ser reconhecido pelo Aizawa e migrar para os herois mais cedo ou mais tarde.",
+  "source": "Arco Festival Esportivo (caps. ~39-40); wiki Sports Festival Arc",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "C06",
+  "order": 8.5,
+  "arc": "Festival Esportivo",
+  "date": "0001-05-10",
+  "title": "Bakugo x Uraraka (quartas de final)",
+  "summary": "Uraraka faz chover destrocos como meteoros contra Bakugo, que destroi tudo com uma explosao gigante e vence. Ele a trata como igual e nao poupa esforco; parte do publico o critica, mas Uraraka sai respeitada.",
+  "hinge": 1,
+  "key_npcs": [
+   "katsuki",
+   "uraraka"
+  ],
+  "if_changed": "Uraraka pode ficar com a vitoria so se o jogador interferir; a reputacao de Bakugo depende disso.",
+  "source": "Arco Festival Esportivo (caps. ~44-45); wiki Sports Festival Arc",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "C07",
+  "order": 8.6,
+  "arc": "Festival Esportivo",
+  "date": "0001-05-10",
+  "title": "Shoto revela sua origem a Deku",
+  "summary": "Antes da semifinal, Shoto conta a Deku sobre a cicatriz queimada, o abuso de Endeavor e a decisao de nunca usar o fogo. Deku o desafia: 'o poder e seu'.",
+  "hinge": 2,
+  "key_npcs": [
+   "shoto",
+   "izuku",
+   "endeavor"
+  ],
+  "if_changed": "Se outro personagem falar com Shoto, o desbloqueio emocional pode vir por outro caminho (e em outro momento).",
+  "source": "Arco Festival Esportivo (cap. ~45-46); wiki Sports Festival Arc",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "C08",
+  "order": 8.7,
+  "arc": "Festival Esportivo",
+  "date": "0001-05-10",
+  "title": "Deku x Shoto: o fogo desperta",
+  "summary": "Deku quebra dedos repetidamente para resistir ao gelo e incita Shoto a usar sua chama, o que ele finalmente faz. O choque entre os golpes destroi parte da arena; Shoto vence, mas muda por dentro.",
+  "hinge": 2,
+  "key_npcs": [
+   "izuku",
+   "shoto",
+   "endeavor",
+   "all_might"
+  ],
+  "if_changed": "Se Shoto nunca usar o fogo aqui, sua trajetoria com Endeavor e Dabi segue outro rumo.",
+  "source": "Arco Festival Esportivo (caps. ~46-48); wiki Sports Festival Arc",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "C09",
+  "order": 8.8,
+  "arc": "Festival Esportivo",
+  "date": "0001-05-10",
+  "title": "Final: Bakugo x Shoto e a medalha acorrentada",
+  "summary": "Bakugo derrota Shoto e e 1o lugar, mas e acorrentado ao podio em furia por ter vencido sem satisfacao; Shoto e 2o e Tokoyami fica com o 3o (Iida saiu antes por causa de Ingenium).",
+  "hinge": 1,
+  "key_npcs": [
+   "katsuki",
+   "shoto",
+   "iida",
+   "tokoyami"
+  ],
+  "if_changed": "Resultado da final afeta os convites de estagio (Shoto/Katsuki recebem varias ofertas).",
+  "source": "Arco Festival Esportivo (caps. ~49-50); wiki Sports Festival Arc. Verificar quem divide o 3o lugar.",
+  "confidence": "sem fonte independente (revisar)"
+ },
+ {
+  "id": "D01",
+  "order": 9,
+  "arc": "Assassino de Herois",
+  "date": "0001-06-03",
+  "title": "Nomes de Heroi e estagios",
+  "hinge": 1,
+  "key_npcs": [
+   "midnight",
+   "izuku",
+   "iida",
+   "shoto"
+  ],
+  "summary": "Midnight conduz a escolha dos nomes. Deku -> Gran Torino; Todoroki -> Endeavor; Iida -> Manual (Hosu).",
+  "if_changed": "Estagiar em outro local abre outros arcos pessoais.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "D03",
+  "order": 9.1,
+  "arc": "Assassino de Herois",
+  "date": "0001-06-10",
+  "title": "Deku estagia com Gran Torino",
+  "summary": "No estagio, Gran Torino, ex-mentor de All Might, testa Deku e o ensina a usar o One For All em movimentos multidirecionais, reforcando a ligacao de Deku com o legado.",
+  "hinge": 1,
+  "key_npcs": [
+   "izuku",
+   "gran_torino",
+   "all_might"
+  ],
+  "if_changed": "Estagiar com outro heroi muda a relacao do jogador com a mentoria e o acesso a segredos do OFA.",
+  "source": "Arco Assassino de Herois (Hero Killer: Stain Arc); https://myheroacademia.fandom.com/wiki/Hero_Killer:_Stain_Arc",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "D04",
+  "order": 9.2,
+  "arc": "Assassino de Herois",
+  "date": "0001-06-18",
+  "title": "Iida e a vinganca contra Stain",
+  "summary": "Iida estagia na agência de Manual e quer vingar o irmão Tensei (Ingenium), mutilado por Stain. Deku percebe a obsessão e tenta alcançá-lo.",
+  "hinge": 1,
+  "key_npcs": [
+   "iida",
+   "izuku"
+  ],
+  "if_changed": "Alguem pode convencer Iida a recuar; Stain, entao, ataca apenas outros herois.",
+  "source": "Arco Hero Killer: Stain; wiki Hero Killer: Stain Arc",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "D02",
+  "order": 10,
+  "arc": "Assassino de Herois",
+  "date": "0001-06-20",
+  "title": "Incidente de Hosu: Stain",
+  "hinge": 2,
+  "key_npcs": [
+   "stain",
+   "iida",
+   "izuku",
+   "shoto",
+   "endeavor",
+   "gran_torino"
+  ],
+  "summary": "Stain cripple Ingenium; Iida quer vinganca. Deku, Iida e Todoroki enfrentam Stain num beco; Nomus soltos na cidade; Endeavor chega. Stain e preso e deixa sua ideologia influente (herois falsos).",
+  "if_changed": "Stain pode morrer, escapar ou se tornar aliado do jogador. Altera a Liga: Shigaraki o admira.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "D06",
+  "order": 10.1,
+  "arc": "Assassino de Herois",
+  "date": "0001-06-21",
+  "title": "Pos-Hosu: Stain preso e a doutrina que se espalha",
+  "summary": "Com Stain preso, sua ideologia ganha adeptos; Spinner se une a Liga. Deku, Iida e Shoto sao repreendidos por usar Individualidade sem licenca, mas escapam de punicao formal.",
+  "hinge": 2,
+  "key_npcs": [
+   "stain",
+   "spinner",
+   "izuku",
+   "iida",
+   "shoto",
+   "endeavor"
+  ],
+  "if_changed": "Stain solto ou morto muda a base da Liga e o quanto os viloes mais jovens sao radicalizados.",
+  "source": "Hero Killer: Stain Arc; wiki Stain. Verificar detalhes da repreensao e punicoes.",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "E01",
+  "order": 11,
+  "arc": "Exames Finais e Campo de Treino",
+  "date": "0001-07-10",
+  "title": "Exames finais praticos",
+  "hinge": 1,
+  "key_npcs": [
+   "aizawa",
+   "all_might",
+   "izuku",
+   "katsuki"
+  ],
+  "summary": "Provas contra professores. Deku+Bakugo vs All Might (se unem a contragosto). Alguns reprovam para treino de reforco.",
+  "if_changed": "Reprovar leva ao campo extra, com consequencias.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "E03",
+  "order": 11.1,
+  "arc": "Exames Finais e Campo de Treino",
+  "date": "0001-07-12",
+  "title": "Deku e Shigaraki se encontram no shopping",
+  "summary": "Ao comprar equipamento para o campo de treino, Deku cruza com Shigaraki, que o observa de longe; a Liga ja esta de olho nos alunos da 1-A.",
+  "hinge": 1,
+  "key_npcs": [
+   "izuku",
+   "tomura"
+  ],
+  "if_changed": "Confronto aberto aqui antecipa a invasao e muda o planejamento da Liga.",
+  "source": "Arco Treinamento de Verao / Pre-Floresta; wiki Forest Training Camp Arc (cena do shopping). Confirmar capitulo exato.",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "E02",
+  "order": 12,
+  "arc": "Exames Finais e Campo de Treino",
+  "date": "0001-08-05",
+  "title": "Campo de treinamento na floresta e ataque da Liga",
+  "hinge": 3,
+  "key_npcs": [
+   "pixie_bob",
+   "katsuki",
+   "shoto",
+   "tomura",
+   "dabi",
+   "toga",
+   "twice",
+   "mr_compress",
+   "muscular",
+   "aizawa"
+  ],
+  "summary": "Os alunos treinam com os Wild, Wild Pussycats e Kota Izumi, sobrinho de Pixie-Bob, desconfia dos herois. A Liga dos Viloes ataca a floresta (Dabi, Toga, Twice, Mr. Compress, Muscular, Moonfish). Os alvos eram Katsuki e Shoto; Mr. Compress sequestra Katsuki. A Liga ganha um refem valioso e a UA e humilhada publicamente.",
+  "if_changed": "Se Katsuki nao for levado, a operacao de Kamino nao acontece como foi. Replaneje o arco de resgate.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "E04",
+  "order": 12.1,
+  "arc": "Exames Finais e Campo de Treino",
+  "date": "0001-08-05",
+  "title": "Kota Izumi e o desprezo pelos herois",
+  "summary": "No primeiro dia no campo, Kota, sobrinho de Pixie-Bob, recusa tratar herois como ideais por causa da morte dos pais. Deku se empenha em entender o garoto.",
+  "hinge": 1,
+  "key_npcs": [
+   "kota",
+   "izuku",
+   "pixie_bob",
+   "mandalay"
+  ],
+  "if_changed": "Quem converse com Kota aqui pode mudar o tom do resgate dele durante o ataque.",
+  "source": "Forest Training Camp Arc; https://myheroacademia.fandom.com/wiki/Forest_Training_Camp_Arc",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "E05",
+  "order": 12.2,
+  "arc": "Exames Finais e Campo de Treino",
+  "date": "0001-08-06",
+  "title": "Teste de coragem e o ataque comeca",
+  "summary": "Durante o teste de coragem entre as classes, a Liga ataca: gas de Mr. Compress e fogo de Dabi; Mandalay envia ordem por telepatia.",
+  "hinge": 2,
+  "key_npcs": [
+   "mandalay",
+   "aizawa",
+   "dabi",
+   "toga",
+   "twice",
+   "mr_compress",
+   "pixie_bob"
+  ],
+  "if_changed": "Se alguem alertar antes, os alunos podem agir antes do sequestro.",
+  "source": "Forest Training Camp Arc",
+  "confidence": "sem fonte independente (revisar)"
+ },
+ {
+  "id": "E06",
+  "order": 12.3,
+  "arc": "Exames Finais e Campo de Treino",
+  "date": "0001-08-06",
+  "title": "Deku, Kota e Muscular",
+  "summary": "Muscular persegue Kota e Deku, que o enfrenta com o One For All; Shoto e Tsuyu ajudam. Muscular e derrotado, mas e capturado pela policia depois.",
+  "hinge": 2,
+  "key_npcs": [
+   "izuku",
+   "kota",
+   "muscular",
+   "shoto"
+  ],
+  "if_changed": "Kota pode morrer ou ficar traumatizado se ninguem chegar a tempo.",
+  "source": "Forest Training Camp Arc. Participacao exata de Shoto/Tsuyu: verificar.",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "E07",
+  "order": 12.4,
+  "arc": "Exames Finais e Campo de Treino",
+  "date": "0001-08-07",
+  "title": "Pos-ataque: Bakugo sequestrado e a UA em crise",
+  "summary": "Os alunos acordam em hospital; varios feridos e Bakugo e levado. A UA entra em estado de emergencia e Deku carrega culpa por nao ter protegido Katsuki.",
+  "hinge": 2,
+  "key_npcs": [
+   "izuku",
+   "katsuki",
+   "aizawa",
+   "kirishima",
+   "shoto"
+  ],
+  "if_changed": "Se o jogador impedir o sequestro, o resgate de Kamino precisa ser reescrito.",
+  "source": "Forest Training Camp Arc",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "F03",
+  "order": 13.1,
+  "arc": "Kamino",
+  "date": "0001-08-09",
+  "title": "Alunos decidem resgatar Bakugo",
+  "summary": "Deku, Shoto, Kirishima e Yaoyorozu decidem resgatar Bakugo; Yaoyorozu cria um rastreador. Iida tenta impedir e fica.",
+  "hinge": 2,
+  "key_npcs": [
+   "izuku",
+   "shoto",
+   "kirishima",
+   "momo",
+   "iida"
+  ],
+  "if_changed": "Sem rastreador de Momo, o esconderijo dos viloes pode nao ser localizado.",
+  "source": "Arco Kamino; https://myheroacademia.fandom.com/wiki/Kamino_Ward_Arc. Participantes exatos (Iida?) a verificar.",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "F04",
+  "order": 13.2,
+  "arc": "Kamino",
+  "date": "0001-08-09",
+  "title": "Bakugo recusa a Liga",
+  "summary": "Na Liga, Katsuki rejeita juntar-se a Shigaraki e mantem o desafio, mostrando que nao e facil de corromper.",
+  "hinge": 1,
+  "key_npcs": [
+   "katsuki",
+   "tomura",
+   "dabi",
+   "mr_compress"
+  ],
+  "if_changed": "A recusa de Bakugo e necessaria para a tensao com a Liga; se aceitar, o arco muda de natureza.",
+  "source": "Arco Kamino; wiki Kamino Ward Arc",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "F01",
+  "order": 13.3,
+  "arc": "Kamino",
+  "date": "0001-08-10",
+  "title": "Operacao de resgate de Bakugo e batalha de Kamino",
+  "hinge": 3,
+  "key_npcs": [
+   "all_might",
+   "all_for_one",
+   "katsuki",
+   "izuku",
+   "endeavor",
+   "gran_torino",
+   "tomura"
+  ],
+  "summary": "Herois e policia invadem os esconderijos. All Might x All For One: luta de gigantes, All Might e derrotado em sua forma mais poderosa e se aposenta ao final. Bakugo e resgatado. Endeavor torna-se o n.1. A Liga ganha prestigio.",
+  "if_changed": "Evento pivo da serie. Se All Might morrer ou vencer limpo, o mundo se reordena (veja `divergences`).",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "F06",
+  "order": 13.4,
+  "arc": "Kamino",
+  "date": "0001-08-10",
+  "title": "Prisao de All For One e fuga da Liga",
+  "summary": "All Might derrota All For One com o ultimo golpe do OFA e AFO e capturado e levado a Tartarus. Shigaraki, Kurogiri e outros escapam com ajuda de Kurogiri; Bakugo e libertado.",
+  "hinge": 3,
+  "key_npcs": [
+   "all_might",
+   "all_for_one",
+   "tomura",
+   "kurogiri",
+   "katsuki"
+  ],
+  "if_changed": "Se AFO fugir, o sistema de poder muda por completo.",
+  "source": "Kamino Ward Arc; wiki All For One",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "F02",
+  "order": 14,
+  "arc": "Kamino",
+  "date": "0001-08-12",
+  "title": "Aposentadoria de All Might e o 'Simbolo' que cai",
+  "hinge": 3,
+  "key_npcs": [
+   "all_might",
+   "izuku",
+   "endeavor"
+  ],
+  "summary": "All Might entrega o rosto ao mundo, o publico desmorona; sociedade em panico. Endeavor assume.",
+  "if_changed": "A opiniao publica dita todos os arcos seguintes.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "G01",
+  "order": 15,
+  "arc": "Dormitorios",
+  "date": "0001-09-01",
+  "title": "Heights Alliance e Deku sob vigilancia",
+  "hinge": 1,
+  "key_npcs": [
+   "aizawa",
+   "izuku",
+   "nezu"
+  ],
+  "summary": "Turma se muda para dormitorios. Deku decide parar de se isolar e conta o segredo do OFA a poucos escolhidos.",
+  "if_changed": "Quem sabe do segredo vira confidente e alvo.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "G02",
+  "order": 16,
+  "arc": "Licenca Provisoria",
+  "date": "0001-10-15",
+  "title": "Exame de Licenca Provisoria",
+  "hinge": 1,
+  "key_npcs": [
+   "katsuki",
+   "shoto",
+   "izuku",
+   "gang_orca"
+  ],
+  "summary": "Deku, Katsuki, Shoto e outros prestam o exame de Licenca Provisoria. Katsuki e Shoto reprovam na primeira tentativa e fazem o curso de reforco com Gang Orca, onde aprendem a lidar com civis e a ouvir. O exame mostra a nova atitude da turma depois de Kamino.",
+  "if_changed": "Reprovar ou aprovar muda a autonomia do jogador em missoes futuras.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "H01",
+  "order": 16.1,
+  "arc": "Hassaikai",
+  "date": "0001-11-02",
+  "title": "Estagio com Nighteye; Overhaul e Eri",
+  "hinge": 3,
+  "key_npcs": [
+   "overhaul",
+   "eri",
+   "mirio",
+   "nighteye",
+   "izuku"
+  ],
+  "summary": "Deku estagia com Sir Nighteye, ex-parceiro de All Might e mentor de Mirio. Investigam os Hassaikai (yakuza). Overhaul (Kai Chisaki) usa o sangue de Eri, uma menina de poder de rebobinar, para fabricar a droga Trigger. Nighteye e gravemente ferido por Overhaul no confronto.",
+  "if_changed": "Nighteye morre no canone. Salva-lo muda o luto de Mirio e de Deku.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "G05",
+  "order": 16.1,
+  "arc": "Licenca Provisoria",
+  "date": "0001-10-20",
+  "title": "Curso de reforco com Gang Orca",
+  "summary": "Katsuki e Shoto, reprovados, fazem o curso de reforco: precisam aprender a salvar civis e a comunicar-se, sob Gang Orca e Endeavor.",
+  "hinge": 1,
+  "key_npcs": [
+   "katsuki",
+   "shoto",
+   "gang_orca"
+  ],
+  "if_changed": "O jogador pode participar do curso ou ensinar um metodo alternativo.",
+  "source": "Arco Licenca Provisoria; wiki Provisional Hero License Exam Arc",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "H03",
+  "order": 16.2,
+  "arc": "Hassaikai",
+  "date": "0001-11-05",
+  "title": "Deku conhece Mirio e Nighteye",
+  "summary": "Deku estagia com Nighteye; conhece Mirio Togata (Lemillion), que o impressiona. Nighteye revela seu desprezo pelo One For All como era.",
+  "hinge": 1,
+  "key_npcs": [
+   "izuku",
+   "mirio",
+   "nighteye",
+   "all_might"
+  ],
+  "if_changed": "Se Nighteye aceitar Deku, o laco entre Mirio e Deku muda.",
+  "source": "Arco Overhaul; https://myheroacademia.fandom.com/wiki/Hassaikai_Arc",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "H04",
+  "order": 16.3,
+  "arc": "Hassaikai",
+  "date": "0001-11-10",
+  "title": "Deku encontra Eri e Overhaul",
+  "summary": "Deku conhece Eri em um beco e depois Overhaul e Rappa; Overhaul e quem a mantem presa. O encontro e o gancho para a investigacao.",
+  "hinge": 2,
+  "key_npcs": [
+   "izuku",
+   "eri",
+   "overhaul"
+  ],
+  "if_changed": "Sem esse encontro, o grupo nao tem motivo para invadir.",
+  "source": "Arco Overhaul; wiki Hassaikai Arc",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "H05",
+  "order": 16.4,
+  "arc": "Hassaikai",
+  "date": "0001-11-12",
+  "title": "Visao de Nighteye: a morte de All Might",
+  "summary": "Nighteye previu a morte de All Might e tenta impedir Deku de herdar o fardo; o conflito com Deku fica evidente.",
+  "hinge": 2,
+  "key_npcs": [
+   "nighteye",
+   "all_might",
+   "izuku",
+   "mirio"
+  ],
+  "if_changed": "Se Nighteye acreditar nas visoes ou mudar de ideia, o futuro de All Might muda.",
+  "source": "Arco Overhaul; wiki Nighteye",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "H06",
+  "order": 17.1,
+  "arc": "Hassaikai",
+  "date": "0001-11-20",
+  "title": "Invasao da base dos Hassaikai",
+  "summary": "Herois e policia invadem a base; Overhaul e seu Rappa, Chronostasis, Hari e outros resistem. A base e um labirinto de armadilhas.",
+  "hinge": 2,
+  "key_npcs": [
+   "overhaul",
+   "rappa",
+   "chronostasis",
+   "mirio",
+   "nighteye",
+   "izuku"
+  ],
+  "if_changed": "Entrada pelo ar ou outro caminho muda quem encontra Eri primeiro.",
+  "source": "Arco Overhaul; wiki Hassaikai Arc",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "H07",
+  "order": 17.2,
+  "arc": "Hassaikai",
+  "date": "0001-11-22",
+  "title": "Overhaul ataca Nighteye e Mirio",
+  "summary": "Overhaul fere gravemente Nighteye. Mirio protege Eri de uma bala destruidora de Individualidade disparada por Overhaul e perde a Individualidade.",
+  "hinge": 3,
+  "key_npcs": [
+   "overhaul",
+   "nighteye",
+   "mirio"
+  ],
+  "if_changed": "Se Mirio nao for atingido, ele pode seguir como heroi; custo narrativo grande.",
+  "source": "Arco Overhaul; wiki Overhaul. Reconfirmar quem leva o tiro.",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "H02",
+  "order": 18,
+  "arc": "Hassaikai",
+  "date": "0001-11-25",
+  "title": "Resgate de Eri",
+  "hinge": 3,
+  "key_npcs": [
+   "eri",
+   "izuku",
+   "overhaul",
+   "mirio",
+   "aizawa",
+   "tamaki",
+   "nejire"
+  ],
+  "summary": "Batalha na sede dos Hassaikai: Mirio protege Deku e Eri, Mirio perde a Individualidade (Aizawa, Nejire, Tamaki e outros ajudam). Eri desperta o rebobinar e Deku a liberta. Overhaul e derrotado. Eri e acolhida pela UA.",
+  "if_changed": "Eri e ancora emocional e arma: protegê-la influencia a moral de todos.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "H08",
+  "order": 18.1,
+  "arc": "Hassaikai",
+  "date": "0001-11-26",
+  "title": "Morte de Nighteye e Overhaul derrotado",
+  "summary": "Deku derrota Overhaul com ajuda de Eri; Nighteye morre em decorrencia dos ferimentos. Overhaul e preso.",
+  "hinge": 2,
+  "key_npcs": [
+   "nighteye",
+   "overhaul",
+   "izuku",
+   "mirio"
+  ],
+  "if_changed": "Salvar Nighteye pode mudar o desfecho de Mirio e de Deku.",
+  "source": "Arco Overhaul; wiki Overhaul. Verificar o uso de Blackwhip.",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "I01",
+  "order": 19,
+  "arc": "Festival Cultural",
+  "date": "0002-01-20",
+  "title": "Festival Cultural da UA",
+  "hinge": 1,
+  "key_npcs": [
+   "jiro",
+   "izuku",
+   "eri"
+  ],
+  "summary": "A turma 1-A monta uma banda/dance; Eri aparece e se aproxima de Deku. Momento leve e de reconstrucao.",
+  "if_changed": "Evento flexivel: use para vinculos.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "I03",
+  "order": 19.2,
+  "arc": "Festival Cultural",
+  "date": "0002-01-20",
+  "title": "Show de Jiro e Eri visita",
+  "summary": "Eri assiste ao show com Aizawa e vive um dia de lazer. Mirio e Deku a acompanham.",
+  "hinge": 1,
+  "key_npcs": [
+   "eri",
+   "jiro",
+   "aizawa",
+   "izuku",
+   "mirio"
+  ],
+  "if_changed": "Pode ser trocado por outra celebracao.",
+  "source": "Arco Festival Cultural; wiki Cultural Festival Arc",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "J01",
+  "order": 20,
+  "arc": "Treino Conjunto",
+  "date": "0002-02-15",
+  "title": "Treino conjunto 1-A x 1-B",
+  "hinge": 1,
+  "key_npcs": [
+   "monoma",
+   "izuku",
+   "katsuki",
+   "shoto"
+  ],
+  "summary": "Classes A e B se enfrentam; Monoma copia Quirks; estimula a competitividade e novas tecnicas.",
+  "if_changed": "Boa chance para o jogador mostrar novas tecnicas.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "K01",
+  "order": 21,
+  "arc": "Exercito de Liberacao Meta",
+  "date": "0002-03-10",
+  "title": "Liga dos Viloes e o Exercito de Liberacao Meta",
+  "hinge": 2,
+  "key_npcs": [
+   "re_destro",
+   "tomura",
+   "spinner",
+   "twice",
+   "gigantomachia"
+  ],
+  "summary": "O ELM sob Re-Destro cresce; Shigaraki recebe Gigantomachia e a lealdade do exercito; Re-Destro e Skeptic envolvidos; Spinner se torna lider. A Liga cresce.",
+  "if_changed": "Eliminando Re-Destro cedo o exercito mudaria de lider.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "K04",
+  "order": 21.2,
+  "arc": "Exercito de Liberacao Meta",
+  "date": "0002-04-01",
+  "title": "Hawks como espiao e a Comissao de Seguranca Publica",
+  "summary": "Hawks, agente duplo da Comissao, se infiltra na Liga. Ele repassa informacoes sobre a Frente de Libertacao Paranormal aos herois e prepara o terreno para o ataque.",
+  "hinge": 2,
+  "key_npcs": [
+   "hawks",
+   "dabi",
+   "tomura",
+   "endeavor"
+  ],
+  "if_changed": "Se Hawks for exposto cedo, a Comissao perde sua melhor fonte de informacao e a guerra muda de forma.",
+  "source": "Arco Guerra de Libertacao Paranormal (preparacao); wiki Hawks. Capitulos exatos: verificar.",
+  "confidence": "sem fonte independente (revisar)"
+ },
+ {
+  "id": "K02",
+  "order": 22,
+  "arc": "Exercito de Liberacao Meta",
+  "date": "0002-04-05",
+  "title": "Segundo ano e escalada ao confronto",
+  "hinge": 1,
+  "key_npcs": [
+   "aizawa",
+   "izuku",
+   "uraraka"
+  ],
+  "summary": "Turma passa ao segundo ano; treinamentos mais duros e missoes supervisionadas. O estado de alerta social aumenta.",
+  "if_changed": "Use como ponte livre para o jogador.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "L01",
+  "order": 23,
+  "arc": "Guerra de Libertacao Paranormal",
+  "date": "0002-09-01",
+  "title": "Ofensiva dos herois contra o esconderijo da Liga",
+  "hinge": 3,
+  "key_npcs": [
+   "endeavor",
+   "hawks",
+   "tomura",
+   "all_for_one",
+   "dabi",
+   "gigantomachia"
+  ],
+  "summary": "Os herois e a Comissao lancam a ofensiva massiva contra o esconderijo da Liga dos Viloes, com Hawks atuando como agente duplo. Os eventos seguintes (L05-L11) detalham o desenrolar da guerra.",
+  "if_changed": "Evento pivo. Derrotar Shigaraki aqui seria um 'what if' dramatico.",
+  "confidence": "geral (revisar)"
+ },
+ {
+  "id": "L05",
+  "order": 23.1,
+  "arc": "Guerra de Libertacao Paranormal",
+  "date": "0002-09-01",
+  "title": "Shigaraki desperta e a Decadencia consome Jaku City",
+  "summary": "Shigaraki desperta antes do previsto apos Mirko danificar o tanque, aceita o poder de All For One e libera o Decay, devastando grande parte de Jaku City.",
+  "hinge": 3,
+  "key_npcs": [
+   "tomura",
+   "mirko",
+   "all_for_one"
+  ],
+  "if_changed": "Se Shigaraki nao despertar prematuramente, a guerra tem outro desfecho.",
+  "source": "PLW Arc; wiki Paranormal Liberation War Arc. Verificar morte de X-Less e escala exata.",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "L06",
+  "order": 23.2,
+  "arc": "Guerra de Libertacao Paranormal",
+  "date": "0002-09-01",
+  "title": "Alunos da UA enfrentam a Liga (1-A e 1-B)",
+  "summary": "Alunos da UA, convocados em apoio, enfrentam viloes da Frente em Jaku City; Bakugo, Deku, Shoto e Kirishima lutam. Gigantomachia se junta ao caos.",
+  "hinge": 2,
+  "key_npcs": [
+   "katsuki",
+   "izuku",
+   "shoto",
+   "kirishima",
+   "gigantomachia"
+  ],
+  "if_changed": "Alunos nao deveriam ser levados a combate se a Liga cair antes.",
+  "source": "PLW Arc ('League of Villains vs. U.A. Students', cap. ~279); wiki PLW Arc. Verificar quais alunos.",
+  "confidence": "sem fonte independente (revisar)"
+ },
+ {
+  "id": "L07",
+  "order": 23.3,
+  "arc": "Guerra de Libertacao Paranormal",
+  "date": "0002-09-01",
+  "title": "Gigantomachia contra os herois",
+  "summary": "Gigantomachia derruba os herois que tentam deter e avanca pelas cidades rumo a Shigaraki.",
+  "hinge": 2,
+  "key_npcs": [
+   "gigantomachia",
+   "endeavor",
+   "mirko"
+  ],
+  "if_changed": "Se Gigantomachia escapar, a Liga mantem seu maior poder fisico.",
+  "source": "PLW Arc ('Footfall of Destruction', cap. ~282); wiki Gigantomachia. Verificar quem o derrota.",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "L02",
+  "order": 24,
+  "arc": "Guerra de Libertacao Paranormal",
+  "date": "0002-09-02",
+  "title": "Revelacao de Dabi: Toya Todoroki",
+  "hinge": 3,
+  "key_npcs": [
+   "dabi",
+   "shoto",
+   "endeavor"
+  ],
+  "summary": "Dabi revela que e Toya, filho primogenito de Endeavor. A sociedade perde a confianca nos herois; Endeavor enfrenta a verdade de seus erros.",
+  "if_changed": "Shoto pode intervir antes e salvar Dabi/Toya?",
+  "confidence": "geral (revisar)"
+ },
+ {
+  "id": "L09",
+  "order": 24.2,
+  "arc": "Guerra de Libertacao Paranormal",
+  "date": "0002-09-03",
+  "title": "Hawks e a traicao revelada",
+  "summary": "Hawks fere Twice por tras e Dabi o expoe como espiao; Dabi depois usa isso na transmissao.",
+  "hinge": 2,
+  "key_npcs": [
+   "hawks",
+   "dabi",
+   "twice",
+   "toga"
+  ],
+  "if_changed": "Se Hawks sair sem ser exposto, a Liga nao muda de estrategia.",
+  "source": "PLW Arc; wiki Hawks. Detalhes: verificar.",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "L10",
+  "order": 25.1,
+  "arc": "Guerra de Libertacao Paranormal",
+  "date": "0002-09-03",
+  "title": "Fuga em massa de Tartarus",
+  "summary": "Shigaraki e a Liga abrem Tartarus (prisao de maxima seguranca) e libertam presos perigosos. Muscular, Nagant e outros escapam.",
+  "hinge": 3,
+  "key_npcs": [
+   "tomura",
+   "kurogiri",
+   "all_for_one",
+   "muscular",
+   "nagant"
+  ],
+  "if_changed": "Sem a fuga, o arco Deku Sombrio nao existe.",
+  "source": "PLW Arc (cap. ~297 'Tartarus'); wiki Tartarus. Verificar quem exatamente escapa e como.",
+  "confidence": "sem fonte independente (revisar)"
+ },
+ {
+  "id": "L11",
+  "order": 25.2,
+  "arc": "Guerra de Libertacao Paranormal",
+  "date": "0002-09-04",
+  "title": "Fim da guerra e o mundo em colapso",
+  "summary": "Shigaraki e a Liga fogem; a guerra termina com milhares de feridos e mortos. A sociedade perde a fe nos herois e muitos se aposentam.",
+  "hinge": 3,
+  "key_npcs": [
+   "endeavor",
+   "izuku",
+   "tomura",
+   "hawks",
+   "all_might"
+  ],
+  "if_changed": "Se os herois vencerem limpo, o mundo evita o Deku Sombrio e o inicio do declinio.",
+  "source": "PLW Arc (caps. ~299-306); wiki PLW Arc",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "N01",
+  "order": 26,
+  "arc": "Deku Sombrio",
+  "date": "0002-10-10",
+  "title": "Deku abandona a UA e caca viloes sozinho",
+  "hinge": 3,
+  "key_npcs": [
+   "izuku",
+   "katsuki",
+   "shoto",
+   "uraraka",
+   "all_might"
+  ],
+  "summary": "Para proteger os colegas, Deku se isola, esgotado fisica e mentalmente; a turma 1-A se une e tenta traze-lo de volta. Reconciliacao em batalha.",
+  "if_changed": "O jogador pode ser a ancora que muda o tom desse arco.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ },
+ {
+  "id": "N03",
+  "order": 26.1,
+  "arc": "Deku Sombrio",
+  "date": "0002-10-11",
+  "title": "Deku descobre novos poderes do OFA",
+  "summary": "Deku conversa com os usuarios anteriores do One For All, descobrindo Blackwhip, Danger Sense, Smokescreen e outros. All Might percebe a mudanca.",
+  "hinge": 2,
+  "key_npcs": [
+   "izuku",
+   "all_might",
+   "hawks",
+   "best_jeanist"
+  ],
+  "if_changed": "Quem ajudar Deku aqui muda o quanto ele se isola depois.",
+  "source": "Dark Hero Arc (cap. ~306 'The Final Act Begins'); https://myheroacademia.fandom.com/wiki/Dark_Hero_Arc",
+  "confidence": "sem fonte independente (revisar)"
+ },
+ {
+  "id": "N05",
+  "order": 26.2,
+  "arc": "Deku Sombrio",
+  "date": "0002-10-13",
+  "title": "Deku derrota Muscular",
+  "summary": "Deku derrota Muscular em uma cidade abandonada usando varios poderes do One For All.",
+  "hinge": 1,
+  "key_npcs": [
+   "izuku",
+   "muscular"
+  ],
+  "if_changed": "Muscular pode escapar para ser usado pela Liga mais tarde.",
+  "source": "Dark Hero Arc; wiki Dark Hero Arc. Verificar cena.",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "N06",
+  "order": 26.3,
+  "arc": "Deku Sombrio",
+  "date": "0002-10-15",
+  "title": "Lady Nagant ataca Deku",
+  "summary": "Lady Nagant, ex-assassina da Comissao, ataca Deku por ordem de All For One. Deku a convence a revelar informacoes; AFO a trai e detona uma bomba.",
+  "hinge": 2,
+  "key_npcs": [
+   "nagant",
+   "izuku",
+   "all_for_one"
+  ],
+  "if_changed": "Se Nagant mata Deku, a linhagem do OFA acaba.",
+  "source": "Dark Hero Arc (caps. ~312-319); wiki Lady Nagant. Verificar o destino de Nagant.",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "N07",
+  "order": 26.4,
+  "arc": "Deku Sombrio",
+  "date": "0002-10-18",
+  "title": "Classe 1-A vs Deku (Great Explosion Murder God)",
+  "summary": "Os colegas da 1-A confrontam Deku para traze-lo de volta, e Bakugo aparece com seu apelido de heroi. A turma prova que ele nao esta sozinho.",
+  "hinge": 3,
+  "key_npcs": [
+   "izuku",
+   "katsuki",
+   "shoto",
+   "uraraka",
+   "kirishima"
+  ],
+  "if_changed": "Reconciliacao exige que alguem de fato o alcance emocionalmente.",
+  "source": "Dark Hero Arc (caps. ~320-322 'Deku vs. Class A'); wiki Dark Hero Arc",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "N08",
+  "order": 26.5,
+  "arc": "Deku Sombrio",
+  "date": "0002-10-20",
+  "title": "Uraraka e o discurso a populacao",
+  "summary": "Uraraka usa seu Float para falar com civis assustados, explicando os sacrificios de Deku e restaurando a opiniao publica sobre ele.",
+  "hinge": 2,
+  "key_npcs": [
+   "uraraka",
+   "izuku"
+  ],
+  "if_changed": "Sem o discurso, o publico continua com medo de Deku.",
+  "source": "Dark Hero Arc (caps. ~323-327); wiki Dark Hero Arc",
+  "confidence": "confirmado"
+ },
+ {
+  "id": "N09",
+  "order": 26.6,
+  "arc": "Deku Sombrio",
+  "date": "0002-10-25",
+  "title": "Arco do Traidor: Aoyama e o plano de Shigaraki",
+  "summary": "Deku descobre que Shigaraki usara Aoyama para atrai-lo. Aizawa e a turma montam um contra-plano com Shinso e a UA e transformada em fortaleza.",
+  "hinge": 2,
+  "key_npcs": [
+   "aoyama",
+   "aizawa",
+   "shinso",
+   "izuku",
+   "tomura"
+  ],
+  "if_changed": "Revelar a traicao cedo muda o local da batalha.",
+  "source": "Traitor Arc (caps. ~329-342); wiki Traitor Arc. Confirmar detalhes.",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "N10",
+  "order": 26.8,
+  "arc": "Guerra Final",
+  "date": "0002-11-10",
+  "title": "Shigaraki e levado a UA",
+  "summary": "Apos o Arco do Traidor, a Frente ataca com a Decadencia de Shigaraki; a UA, ja preparada, torna-se campo de batalha. A Guerra Final comeca.",
+  "hinge": 3,
+  "key_npcs": [
+   "tomura",
+   "izuku",
+   "aizawa",
+   "all_might",
+   "aoyama"
+  ],
+  "if_changed": "Alterar o local da batalha muda a escala de vitimas civis.",
+  "source": "Final War Arc (caps. ~343-345); https://myheroacademia.fandom.com/wiki/Final_War_Arc",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "N02",
+  "order": 27,
+  "arc": "Guerra Final",
+  "date": "0002-11-15",
+  "title": "Guerra Final: visao geral",
+  "hinge": 3,
+  "key_npcs": [
+   "izuku",
+   "katsuki",
+   "shoto",
+   "all_might",
+   "tomura",
+   "all_for_one",
+   "endeavor",
+   "hawks"
+  ],
+  "summary": "Guerra aberta entre herois e a Liga/All For One. Veja N10 e N13-N18 para o desenrolar. Detalhes de luta: confira as notas de confianca.",
+  "if_changed": "A resolucao final e o maior ponto de divergencia possivel.",
+  "confidence": "geral (revisar)"
+ },
+ {
+  "id": "N13",
+  "order": 27.3,
+  "arc": "Guerra Final",
+  "date": "0002-11-15",
+  "title": "Endeavor x Dabi (Toya)",
+  "summary": "Toya (Dabi) enfrenta Endeavor e Shoto na Guerra Final; a luta familiar termina com a morte de Toya.",
+  "hinge": 3,
+  "key_npcs": [
+   "dabi",
+   "endeavor",
+   "shoto"
+  ],
+  "if_changed": "Endeavor pode morrer ou salvar Toya.",
+  "source": "Final War Arc (caps. ~388-391 'Toya'); wiki Endeavor, Dabi. Ordem das lutas contra Dabi: verificar.",
+  "confidence": "sem fonte independente (revisar)"
+ },
+ {
+  "id": "N14",
+  "order": 27.4,
+  "arc": "Guerra Final",
+  "date": "0002-11-15",
+  "title": "Deku, Uraraka e Tsuyu x Toga",
+  "summary": "Uraraka e Tsuyu enfrentam Toga e seus clones; Toga morre ao salvar Uraraka com seu sangue.",
+  "hinge": 2,
+  "key_npcs": [
+   "toga",
+   "uraraka",
+   "tsuyu"
+  ],
+  "if_changed": "Salvar Toga muda o saldo moral da guerra.",
+  "source": "Final War Arc (caps. ~393-396 'Ochako Uraraka vs. Himiko Toga'); https://myheroacademia.fandom.com/wiki/Izuku_Midoriya,_Ochaco_Uraraka_%26_Tsuyu_Asui_vs._Himiko_Toga. Destino de Toga: verificar.",
+  "confidence": "corrigido apos verificacao"
+ },
+ {
+  "id": "N15",
+  "order": 27.5,
+  "arc": "Guerra Final",
+  "date": "0002-11-15",
+  "title": "Bakugo x Shigaraki: coracao perfurado",
+  "summary": "Bakugo usa Cluster em Shigaraki mas e atravessado no peito; Best Jeanist e Edgeshot (que morre) o reanimam, e Bakugo luta ao lado de Deku.",
+  "hinge": 3,
+  "key_npcs": [
+   "katsuki",
+   "tomura",
+   "edgeshot",
+   "best_jeanist",
+   "izuku"
+  ],
+  "if_changed": "Bakugo pode morrer se ninguem o salvar.",
+  "source": "Final War Arc; wiki Final War Arc",
+  "confidence": "sem fonte independente (revisar)"
+ },
+ {
+  "id": "N16",
+  "order": 27.6,
+  "arc": "Guerra Final",
+  "date": "0002-11-16",
+  "title": "Deku x All For One",
+  "summary": "Deku enfrenta All For One enquanto aprende os poderes de usuarios anteriores; All Might, Endeavor e Aizawa auxiliam.",
+  "hinge": 3,
+  "key_npcs": [
+   "izuku",
+   "all_for_one",
+   "all_might",
+   "endeavor",
+   "aizawa"
+  ],
+  "if_changed": "Resultado define se AFO continua a ameaca.",
+  "source": "Final War Arc (caps. ~367-368, 405-410); wiki Final War Arc",
+  "confidence": "sem fonte independente (revisar)"
+ },
+ {
+  "id": "N17",
+  "order": 27.7,
+  "arc": "Guerra Final",
+  "date": "0002-11-16",
+  "title": "Derrota de All For One",
+  "summary": "Com ataque combinado de Bakugo, All Might, Endeavor, Aizawa (apagando) e Deku, All For One e derrotado.",
+  "hinge": 3,
+  "key_npcs": [
+   "all_for_one",
+   "izuku",
+   "katsuki",
+   "all_might",
+   "endeavor",
+   "aizawa"
+  ],
+  "if_changed": "Poder ou recursos adicionais mudam o preco da vitoria.",
+  "source": "Final War Arc (caps. ~410-415); https://gamerant.com/my-hero-academia-the-final-war-arc-explained/",
+  "confidence": "sem fonte independente (revisar)"
+ },
+ {
+  "id": "N18",
+  "order": 27.8,
+  "arc": "Guerra Final",
+  "date": "0002-11-17",
+  "title": "Deku alcanca Tenko e Shigaraki morre",
+  "summary": "Deku chega ao verdadeiro Tomura (Tenko Shimura) e o enfrenta; o corpo de Tomura vira cinzas ao final.",
+  "hinge": 3,
+  "key_npcs": [
+   "izuku",
+   "tomura"
+  ],
+  "if_changed": "Salvar Tomura exigiria outra solucao emocional.",
+  "source": "Final War Arc (caps. ~416-424, 'Izuku Midoriya Rising'); https://gamerant.com/my-hero-academia-the-final-war-arc-explained/",
+  "confidence": "sem fonte independente (revisar)"
+ },
+ {
+  "id": "Z02",
+  "order": 27.9,
+  "arc": "Epilogo",
+  "date": "0003-03-01",
+  "title": "Reconstrucao pos-guerra",
+  "summary": "A sociedade se reconstroi; os herois assumem responsabilidades e Deku perde o One For All.",
+  "hinge": 2,
+  "key_npcs": [
+   "izuku",
+   "all_might",
+   "katsuki",
+   "shoto",
+   "endeavor"
+  ],
+  "if_changed": "O epilogo reflete as escolhas do jogador.",
+  "source": "Final War Arc / Epilogo (caps. ~425-430); wiki Final War Arc",
+  "confidence": "sem fonte independente (revisar)"
+ },
+ {
+  "id": "Z01",
+  "order": 28,
+  "arc": "Epilogo",
+  "date": "0008-04-01",
+  "title": "Futuro: herois da nova geracao",
+  "hinge": 1,
+  "key_npcs": [
+   "izuku",
+   "all_might"
+  ],
+  "summary": "Anos depois, a nova geracao de herois reconstruiu a sociedade. Deku, sem poder, torna-se professor/assistente na UA.",
+  "if_changed": "O epilogo reflete as escolhas do jogador.",
+  "confidence": "escrito do zero (revisar contra a wiki)"
+ }
+]
